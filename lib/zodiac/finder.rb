@@ -1,6 +1,6 @@
 module Zodiac
   module Finder
-    YEAR = 2011
+    YEAR = 2012
     
     def self.date_for(month, day)
       DateTime.new(YEAR, month, day)
